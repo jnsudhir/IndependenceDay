@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+#cone {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 20px solid silver;
+  margin: 3cm 0 0 5cm;
+}
+
+#roundedRectangle {
+  height: 0.2cm;
+  width: 0.6cm;
+  background-color: silver;
+  border-radius: 0.1cm;
+  margin: 0 0 0 4.86cm;
+}
+#saffron {
+  width: 5.5cm;
+  height: 0.8cm;
+  background-color: orangered;
+  position: absolute;
+  left: 5.2cm;
+  visibility: hidden;
+}
+
+#chakra {
+  height: 0.8cm;
+  width: 0.8cm;
+  position: absolute;
+  top: 4.6cm;
+  left: 7.45cm;
+  visibility: hidden;
+}
+#green {
+  width: 5.5cm;
+  height: 0.8cm;
+  background-color: green;
+  position: absolute;
+  left: 5.2cm;
+  top: 5.5cm;
+  visibility: hidden;
+}
+#foldedFlag {
+  position: absolute;
+  width: 0.8cm;
+  height: 0.8cm;
+  left: 5.2cm;
+  border-radius: 50%;
+  top: 10cm;
+  animation-name: flagHoisting;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  visibility: visible;
+}
+@keyframes flagHoisting {
+  from {
+    top: 8cm;
+  }
+  to {
+    top: 3.6cm;
+  }
+}
+
+#pole {
+  position: relative;
+  width: 0.2cm;
+  height: 15cm;
+  background-color: silver;
+  justify-content: center;
+  margin: 0cm 0 0 5cm;
+}
+#stand0 {
+  width: 2cm;
+  height: 1cm;
+  border-radius: 0.2cm 0.2cm 0 0cm;
+  background-color: rgb(238, 131, 131);
+  border-color: rgb(126, 3, 3);
+  margin: 0 0 0 4cm;
+  border-style: solid;
+}
+#stand1 {
+  width: 3.5cm;
+  height: 1cm;
+  background-color: rgb(238, 131, 131);
+  border-color: rgb(126, 3, 3);
+  border-style: solid;
+  border-radius: 0.2cm 0.2cm 0 0cm;
+  margin: 0 0 0 3.3cm;
+}
+#stand2 {
+  width: 5.5cm;
+  height: 1cm;
+  background-color: rgb(238, 131, 131);
+  margin: 0 0 0 2.3cm;
+  border-radius: 0.2cm 0.2cm 0 0cm;
+  border-color: rgb(126, 3, 3);
+  border-style: solid;
+}
+/* #messagebBox {
+  display: flex;
+  align-items: center;
+justify-content: center;
+} */
+#message {
+  color: rgb(119, 119, 240);
+  font-size: 0.5cm;
+  visibility: hidden;
+  position: relative;
+  bottom: 10cm;
+  left: 5.5cm;
+}
+#stay {
+  font-size: larger;
+  color: black;
+  font-weight: bolder;
+}
+#footerBody {
+  display: flex;
+  justify-content: center;
+  gap: 1cm;
+}
+
+#git,
+#linkedin,
+#insta {
+  height: 1cm;
+  width: 1cm;
+}
+@media only screen and (max-width: 600px) {
+}
